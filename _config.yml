@@ -24,7 +24,7 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
 
-theme: bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme
 footer_menu: footer-entries
 
 
