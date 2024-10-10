@@ -1,0 +1,26 @@
+---
+layout: page
+
+hide_hero: true
+---
+
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+  <main>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>ParCFD CS</h1>
+        <p>About ParCFD</p>
+      </div>
+    </div>
+
+    <div class="container">
+      {{ content | expand_urls: root_url }}
+    </div>
+  </main>
+</body>
+
+</html>
