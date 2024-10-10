@@ -1,0 +1,42 @@
+---
+layout: page
+title: Workshops
+date: 2014-06-11 14:38
+navbar: Events
+subnavbar: Overview
+comments: false
+sharing: false
+footer: false
+---
+
+<div class="columns is-multiline">
+  <div class="column is-6">
+    <h2>Upcoming</h2>
+    <ul class="list-group">
+      {% assign sorted_events = site.events_upcoming | sort:'event_start' %}
+      {% for event in sorted_events %}
+      {% if event.page_type == 'event_page' %}
+      {% include event/overview_item.html %}
+      {% endif %}
+      <br>
+      <br>
+      {% endfor %}
+    </ul>
+    <br>
+  </div>
+  <div class="column is-6">
+    <h2>Past</h2>
+    <ul class="list-group">
+      {% assign sorted_events = site.events_past | sort:'event_start' %}
+      {% for event in sorted_events %}
+      {% if event.page_type == 'event_page' %}
+      {% include event/overview_item.html %}
+      {% endif %}
+      <br>
+      <br>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+{% include contribute_footer.html content='event' %}

@@ -1,0 +1,101 @@
+# Site settings
+title: Parallel-in-Time
+email: ruprecht@tuhh.de
+author: "Parallel-in-Time Enthusiasts"
+description: ""
+baseurl: ""
+url: "http://parallel-in-time.org"
+livereload: true
+
+markdown: kramdown
+
+exclude:
+  - travis_deploy_rsa.enc
+  - travis_deploy_rsa.pub
+  - .travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - CONTRIBUTORS
+  - CONTRIBUTING.md
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll/scholar
+  - jekyll-sitemap
+
+theme: bulma-clean-theme
+footer_menu: footer-entries
+
+
+paginate: 5
+paginate_path: "/news/page:num/"
+
+timezone: UTC
+encoding: utf-8
+
+excerpt_separator: '<!--more-->'
+
+assets:
+  compress:
+    css: true
+    js: true
+  cache: .asset-cache
+  prefix: '/assets'
+  assets:
+    - '*.png'
+    - '*.jpg'
+    - '*.jpeg'
+    - '*.svg'
+    - '*.woff'
+    - '*.woff2'
+    - '*.eof'
+    - '*.ttf'
+  digest: true
+  features:
+    liquid: true
+    automatic_img_size: false
+    automatic_img_alt: false
+
+
+collections:
+  events_upcoming:
+    output: true
+    permalink: /events/:title/
+  events_past:
+    output: true
+    permalink: /events/:title/
+  groups:
+    output: true
+  projects:
+    output: true
+  methods:
+    output: true
+  codes:
+    output: true
+
+scholar:
+  bibtex_filters:
+    - latex
+    - markdown
+
+  style: ieee-with-url
+  locale: en
+
+  sort_by: year, authors
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: pint.bib
+  bibliography_template: reference
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+
+# google_analytics_tracking_id: UA-89097376-2

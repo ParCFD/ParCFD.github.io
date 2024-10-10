@@ -1,0 +1,31 @@
+---
+layout: page
+title: Codes
+date: 2014-06-15 16:45
+navbar: Codes
+subnavbar: Overview
+footer: false
+---
+
+<div class="panel-container">
+  {% assign sorted_codes = site.codes | sort:'title' %}
+  {% for code in sorted_codes %}
+  {% capture page %}{{ code }}{% endcapture %}
+  <div class="card panel-card">
+    <div>
+      <h2 class="panel-title">
+        <a href="{{ code.url }}">
+          {{ code.title }}
+        </a>
+      </h2>
+    </div>
+    <div class="panel-body">
+      {% if code.logo %}
+      {% img '{{ code.logo }}' class:"codes-logo img-responsive pull-left" alt:"{{ code.title }} Logo" %}
+      {% endif %}
+      {% if code.short_desc %}{{ code.short_desc }}{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+  {% include contribute_footer.html content='code' %}
+</div>

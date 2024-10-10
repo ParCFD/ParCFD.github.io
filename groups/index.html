@@ -1,0 +1,33 @@
+---
+layout: page
+title: Research Groups
+date: 2014-06-11 14:37
+navbar: Groups
+subnavbar: Overview
+footer: false
+---
+
+<div class="panel-container">
+  {% assign sorted_groups = site.groups | sort:'title' %}
+  {% for group in sorted_groups %}
+  <div class="card panel-card">
+    <div>
+      <h2 class="panel-title">
+        <a href="{{ group.url }}">
+          {{ group.title }}
+        </a>
+      </h2>
+    </div>
+    <div class="panel-body">
+      {% if group.logo %}
+      <img src='/assets/images/{{ group.logo }}' class="groups-logo img-responsive pull-left"
+        alt="{{ group.title }} Logo" id="{{
+      forloop.index }}"></img>
+      {% endif %}
+      {% if group.short_desc %}{{ group.short_desc }}{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% include contribute_footer.html content='group' %}
