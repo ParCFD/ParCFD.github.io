@@ -1,4 +1,4 @@
-d---
+---
 layout: post
 title: ParCFD 2025 Merida, Mexico
 description: How to create a post series with Bulma Clean Theme
