@@ -1,8 +1,8 @@
----
+d---
 layout: post
-title: Next ParCFD 2025
+title: ParCFD 2025 Merida, Mexico
 description: How to create a post series with Bulma Clean Theme
-date: 2024-10-11 09:00:07
+date: 2025-01-16 13:06:00
 hero_image: ../img/RendonPeniche.jpeg
 image: ../img/RendonPeniche.jpeg
 hero_height: is-large
@@ -10,4 +10,4 @@ hero_darken: true
 series: blog_series
 ---
 
-The next ParCFD 2025 will be held in Mexico. More details can be found [here](/upcoming_conference/).
+The next ParCFD conference will be held in Merida, Yucatan, Mexico on November 25-27 2025. More details can be found [here](/upcoming_conference/).
