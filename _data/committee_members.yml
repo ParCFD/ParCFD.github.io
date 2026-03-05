@@ -4,31 +4,31 @@
     The members constitute the decision body of ParCFD
   sponsors:
     - name: Ramesh K. Agarwal, Washington University, USA
+      profile: https://engineering.washu.edu/faculty/Ramesh-Agarwal.html
     - name: Hasan U. Akay, Atilim University, Turkiye
-    - name: Lorena Barba, George Washington University, USA
+      profile: https://www.atilim.edu.tr/uploads/employees/hasan-umur-akay/1765282718-H.U.Akay_CV_ForWeb_09-12-25.pdf
     - name: Rupak Biswas, NASA-Ames Research Center, USA
-    - name: Akin Ecer, IUPUI, USA
-    - name: David R. Emerson, Daresbury Laboratory, UK
+      profile: https://www.nasa.gov/people/rupak-biswas/
     - name: Marco Fossati, University of Strathclyde, UK
     - name: Wagdi Habashi, McGill University, Canada
     - name: Guillaume Houzeaux, Barcelona Supercomputing Center, Spain
       profile: https://www.bsc.es/houzeaux-guillaume
-    - name: David E. Keyes, KAUST, Saudi Arabia
     - name: Trond Kvamsdal, SINTEF, Norway
-    - name: Jang-Hyuk Kwon, Korea Institute of Science and Technology, Korea
+      profile: https://www.ntnu.edu/employees/trond.kvamsdal
     - name: Chao-An Lin, National Tsing Hua University, Taiwan
+      profile: https://mx.nthu.edu.tw/~calin/cfdlab/calin.html
     - name: Andreas Lintermann, Jülich Supercomputing Center, Germany
       profile: https://www.fz-juelich.de/profile/lintermann_a 
-    - name: James McDonough, University of Kentucky, USA
     - name: Youssef Mesri, Mines Paris Tech, France
-    - name: Koji Morinishi, Kyoto Institute of Technology, Japan
-    - name: Sergey Peigin, Israel Aircraft Industries, Israel
+      profile: https://www.linkedin.com/in/youssef-mesri-3706865/
     - name: Stefano Rolfo, STFC Daresbury Laboratory, UK
+      profile: https://ccc-parasols.ed.ac.uk/people/core_team/stefano_rolfo.html
     - name: Damien Tromeur-Dervout, Université Claude Bernard Lyon I, France
-    - name: Ismail H. Tuncer, Middle East Technical University, Turkiye
-    - name: Jong-Shinn Wu, National Chiao Tung University, Taiwan
     - name: Huidan (Whitney) Yu, IUPUI, USA
     - name: Yonghao Zhang, Chinese Academy of Sciences, China
+      profile: https://people.ucas.ac.cn/~yhzhang?language=en; https://orcid.org/0000-0002-0683-7050
+    - name: Juan Carlos Cajas, ENES Mérida, UNAM, México
+      profile: https://www.demag.enesmerida.unam.mx/planta-academica/drcajas/
 - tier_name: Honorary members
   size: small
   description: |-
