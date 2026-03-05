@@ -6,7 +6,8 @@ show_sidebar: true
 
 # Proceedings of the Conference Series
 
-* Parallel CFD 2024, Bonn, Germany, to appear soon
+* Parallel CFD 2025, Merida, Yucatan, Mexico, to appear soon
+* [Parallel CFD 2024, Bonn, Germany](https://doi.org/10.34734/FZJ-2025-02175), Proceedings of the 35th Parallel CFD International Conference 2024, Editors: A. Lintermann, S. S. Herff, & J. H. Göbbert; Forschungszentrum Jülich GmbH Zentralbibliothek, Verlag. 
 * Parallel CFD 2023, Cuenca, Ecuador, no proceedings
 * Parallel CFD 2022, Alba, Italy, no proceedings
 * Parallel CFD 2021, Nice France, no proceedings
