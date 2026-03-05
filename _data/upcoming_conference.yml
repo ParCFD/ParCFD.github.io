@@ -1,13 +1,13 @@
 intro: |-
   
 items:
-  - title: Mexico
-    subtitle: Date follows
+  - title: Nantes, France
+    subtitle: 03-06.11.2026
     description: |-
-      The next ParCFD Conference 2025 will be held in Mexico
-    image: /img/2025_mexico.jpg
+      The next ParCFD Conference 2026 will be held in Nantes, France
+    image: /img/2026_france.png
     image_ratio: is-16by9
-    link: https://www.parcfd2025.org
-    link_text: Go to the ParCFD 2025 website
+    link: https://www.parcfd2026.org
+    link_text: Go to the ParCFD 2026 website
     #tags: Bulma,CSS,Jekyll
     #github: chrisrhymes/chrisrhymes.github.io
