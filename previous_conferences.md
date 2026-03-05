@@ -8,7 +8,6 @@ show_sidebar: true
 
 Click on the links to go to the specific conference websites
 
-* [2026 - Nantes, France](https://www.parcfd2026.org/)
 * [2025 - Merida, Yucatan, Mexico](https://www.parcfd2025.org/)
 * [2024 - Bonn, Germany](https://www.parcfd2024.org/)
 * [2023 - Cuenca, Ecuador](https://www.parcfd2023.org/)
